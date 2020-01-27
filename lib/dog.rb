@@ -6,4 +6,6 @@ class Dog
     @breed = breed
     @id = id
   end
+  
+  def 
 end
