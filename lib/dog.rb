@@ -29,7 +29,7 @@ class Dog
        VALUES (?, ?)
       SQL
 
-     DB[:conn].execute(sql, self.name, self.breed)[0][0]
+     DB[:conn].execute(sql, self.name, self.breed)[0]
     
     
   end
