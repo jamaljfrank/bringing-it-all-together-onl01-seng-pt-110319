@@ -29,7 +29,7 @@ class Dog
       DB[:conn].execute(sql, self.name, self.breed, self.id)
     else
       sql = <<-SQL
-        INSERT INTO dogs (name, grade) 
+        INSERT INTO dogs (name, breed) 
        VALUES (?, ?)
       SQL
 
