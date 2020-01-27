@@ -29,8 +29,8 @@ class Dog
        VALUES (?, ?)
       SQL
 
-      saved_dog = DB[:conn].execute(sql, self.name, self.breed)
-      saved_dog
+     DB[:conn].execute(sql, self.name, self.breed)
+    
     
   end
 end
