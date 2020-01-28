@@ -45,5 +45,5 @@ class Dog
     dog = self.new(row[1], row[2], row[0])
     dog
     
-  
+  end
 end
